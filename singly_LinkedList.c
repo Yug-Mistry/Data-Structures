@@ -260,3 +260,8 @@ bool isDataPresent(linkedList *list,int dat)
 		return true;
 	}
 }
+
+bool isEmpty(linkedList *list)
+{
+	return (list->head == NULL)?true:false;
+}
